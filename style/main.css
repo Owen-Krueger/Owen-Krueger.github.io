@@ -1,3 +1,11 @@
+/* 
+---------------------- Table of Contents ----------------------
+- 1. Colors                                                   -
+- 2. Main                                                     -
+- 3. Profile                                                  -
+---------------------------------------------------------------
+*/
+
 /*
 ------------------------ Color Scheme ------------------------
 - Main Color: #0093FF                                        -
@@ -9,7 +17,7 @@
 --------------------------------------------------------------
 */
 
-/*--- Colors ---*/
+/*--- 1. Colors ---*/
 .mainColor {
 	color: #0093FF;
 }
@@ -17,6 +25,7 @@
 	color: #0DFFE5;
 }
 
+/*--- 2. Main ---*/
 body {
 	background-color: #5D5D5D;
 	font-family: Helvetica, Arial, sans-serif;
@@ -34,7 +43,7 @@ h1 {
 	color: #0093FF;
 }
 
-/*--- Profile ---*/
+/*--- 3. Profile ---*/
 .profileMain {
 	margin: 0 auto;
 	text-align: center;
