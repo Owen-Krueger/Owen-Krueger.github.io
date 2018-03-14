@@ -1,3 +1,55 @@
+/*
+------------------------ Color Scheme ------------------------
+- Main Color: #0093FF                                        -
+- Accent Color: #0DFFE5                                      -
+- Dark Color: #0D19FF                                        -
+- Even Darker: #00074A                                       -
+- Alt-Accent: #0CC4E8                                        -
+- Alt-Main: #0C50E8                                          -
+--------------------------------------------------------------
+*/
+
+/*--- Colors ---*/
+.mainColor {
+	color: #0093FF;
+}
+.accentColor {
+	color: #0DFFE5;
+}
+
+body {
+	background-color: #5D5D5D;
+	
+}
+
+main {
+	margin: 0 auto;
+	background-color: white;
+	height: 400px;
+	width: 750px;
+}
+
 h1 {
-	color: red;
+	color: #0093FF;
+}
+
+/*--- Profile ---*/
+.profileMain {
+	margin: 0 auto;
+	text-align: middle;
+	width: 80%;
+}
+
+.profileTitle {
+	color: #00074A;
+	padding-bottom: 0;
+}
+
+.profileSubtitle {
+	color: #0D19FF;
+	padding-top: 0;
+}
+
+.profileDescription {
+	
 }
