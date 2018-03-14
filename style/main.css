@@ -19,6 +19,7 @@
 
 body {
 	background-color: #5D5D5D;
+	font-family: Helvetica, Arial, sans-serif;
 	
 }
 
@@ -26,7 +27,7 @@ main {
 	margin: 0 auto;
 	background-color: white;
 	height: 400px;
-	width: 750px;
+	width: 80%;
 }
 
 h1 {
@@ -36,18 +37,30 @@ h1 {
 /*--- Profile ---*/
 .profileMain {
 	margin: 0 auto;
-	text-align: middle;
+	text-align: center;
 	width: 80%;
 }
 
-.profileTitle {
-	color: #00074A;
+.profileMain h1 {
+	color: #202020;
 	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.profileImage {
+	padding-top: 25px;
+	width: 200px;
+	border-radius: 80%;
+}
+
+.profileTitle {
+	color: #0CC4E8;
 }
 
 .profileSubtitle {
-	color: #0D19FF;
+	color: #606060;
 	padding-top: 0;
+	margin-top: 0;
 }
 
 .profileDescription {
