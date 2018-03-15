@@ -32,11 +32,11 @@ body {
 	
 }
 
-main {
+.mainBlock {
 	margin: 0 auto;
 	background-color: white;
-	height: 400px;
 	width: 80%;
+	padding-bottom: 50px;
 }
 
 h1 {
