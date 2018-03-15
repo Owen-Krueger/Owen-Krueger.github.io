@@ -36,11 +36,32 @@ body {
 	margin: 0 auto;
 	background-color: white;
 	width: 80%;
-	padding-bottom: 50px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	margin-bottom: 25px;
 }
 
-h1 {
-	color: #0093FF;
+.mainLink {
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #0CC4E8;
+	transition: all 0.4s ease-in-out;
+}
+
+.mainLink:hover{
+	background: #00074A;
+	color: #ffffff;
+}
+
+.mainLink a {
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	width: 100%;
+	padding: 10px;
 }
 
 /*--- 3. Profile ---*/
