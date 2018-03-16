@@ -3,6 +3,7 @@
 - 1. Colors                                                   -
 - 2. Main                                                     -
 - 3. Profile                                                  -
+- 4. Social                                                   -
 ---------------------------------------------------------------
 */
 
@@ -49,8 +50,7 @@ body {
 
 .mainLink {
 	text-align: center;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 5%; margin-right: 5%; margin-bottom: 2%;
 	font-weight: bold;
 	color: #ffffff;
 	background-color: #0CC4E8;
@@ -69,6 +69,7 @@ body {
 	width: 100%;
 	padding: 10px;
 }
+
 
 /*--- 3. Profile ---*/
 .profileMain {
@@ -101,4 +102,19 @@ body {
 
 .profileDescription {
 	
+}
+
+/*--- 4. Social ---*/
+.social {
+	
+}
+
+.socialLink {
+	padding: 10px;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.socialLink a {
+	display: inline;
 }
