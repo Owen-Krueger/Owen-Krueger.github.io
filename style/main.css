@@ -4,6 +4,7 @@
 - 2. Main                                                     -
 - 3. Profile                                                  -
 - 4. Social                                                   -
+- 5. Animations                                               -
 ---------------------------------------------------------------
 */
 
@@ -30,6 +31,8 @@
 body {
 	background-color: #5D5D5D;
 	font-family: Helvetica, Arial, sans-serif;
+	animation-name: fadein;
+    animation-duration: 1s;
 	
 }
 
@@ -120,4 +123,14 @@ body {
 
 .socialLink a {
 	display: inline;
+}
+
+/*--- 5. Animations ---*/
+@keyframes fadein{
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
