@@ -137,6 +137,11 @@ body {
 }
 
 /*--- 6. Courses ---*/
+.courseBlock {
+	overflow: auto;
+	height: 500px;
+}
+
 course {
 	display: block;
 	border: 1px solid #00074A;
