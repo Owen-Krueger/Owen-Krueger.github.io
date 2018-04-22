@@ -148,10 +148,11 @@ course {
 }
 
 course h2 {
-	padding-left: 5%;
 	display: inline;
+	width: 10%;
 }
 
 course p {
+	margin-left: 1%;
 	display: inline;
 }
