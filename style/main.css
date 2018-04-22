@@ -5,6 +5,7 @@
 - 3. Profile                                                  -
 - 4. Social                                                   -
 - 5. Animations                                               -
+- 6. Courses                                                  -
 ---------------------------------------------------------------
 */
 
@@ -48,7 +49,7 @@ body {
 	border-radius: 5px;
 }
 
-.mainBlock h1 {
+.mainBlock h1, .mainBlock h2 {
 	color: #00074A;
 }
 
@@ -133,4 +134,24 @@ body {
 	to {
 		opacity: 1;
 	}
+}
+
+/*--- 6. Courses ---*/
+course {
+	display: block;
+	border: 1px solid #00074A;
+	text-align: left;
+	margin-left: 3%; margin-right: 3%;
+	margin-bottom: 2%; margin-top: 2%;
+	padding: 5%;
+	border-radius: 15px;
+}
+
+course h2 {
+	padding-left: 5%;
+	display: inline;
+}
+
+course p {
+	display: inline;
 }
