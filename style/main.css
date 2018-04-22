@@ -142,6 +142,15 @@ body {
 	height: 500px;
 }
 
+.courseBlock .title {
+	position: absolute;
+	left: 0; right: 0;
+	margin: 0 auto;
+	padding-top: 0;
+	background-color: white;
+	width: 59%;
+}
+
 course {
 	display: block;
 	border: 1px solid #00074A;
@@ -158,6 +167,5 @@ course h2 {
 }
 
 course p {
-	margin-left: 1%;
-	display: inline;
+	margin-bottom: 0;
 }
