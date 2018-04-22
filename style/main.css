@@ -169,3 +169,7 @@ course h2 {
 course p {
 	margin-bottom: 0;
 }
+
+.courseNumber {
+	color: #0CC4E8;
+}
