@@ -179,7 +179,8 @@ course p {
 .sidebar {
 	background-color: white;
 	height: 100%;
-	width: 150px;
+	width: 0px;
+	/*width: 150px;*/
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -201,6 +202,14 @@ course p {
 .sidebar a:hover {
 	color: #00074A;
 }
+
+.openBtn {
+	position: fixed;
+	cursor: pointer;
+	color: #0CC4E8;
+	font-size: 2em;
+}
+
 
 .sidebar .closeBtn {
 	position: absolute;

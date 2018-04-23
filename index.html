@@ -5,6 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="style/main.css"/>
 	</head>
 	<body>
+		<div class="openBtn" onclick="openSidebar()">&#9776;</div>
 		<div id="navSidebar" class="sidebar">
 			<a href="javascript:void(0)" class="closeBtn" onclick="closeSidebar()">&times;</a>
 			<a href="#Portfolio">Portfolio</a>
@@ -77,5 +78,15 @@
 		<div id="Skills" class="mainBlock skillsBlock">
 			<h1>Skills</h1>
 		</div>
+		
+		<script>
+			function openSidebar(){
+				document.getElementById("navSidebar").style.width = "150px"
+			}
+			
+			function closeSidebar(){
+				document.getElementById("navSidebar").style.width = "0";
+			}
+		</script>
 	</body>
 </html>
