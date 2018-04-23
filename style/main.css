@@ -180,7 +180,6 @@ course p {
 	background-color: white;
 	height: 100%;
 	width: 0px;
-	/*width: 150px;*/
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -193,6 +192,7 @@ course p {
 
 .sidebar a {
 	text-decoration: none;
+	display: block;
 	padding-left: 7%;
 	padding-top: 5%;
 	font-size: 2em;
