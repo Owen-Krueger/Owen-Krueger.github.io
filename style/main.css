@@ -6,6 +6,7 @@
 - 4. Social                                                   -
 - 5. Animations                                               -
 - 6. Courses                                                  -
+- 7. Sidebar                                                  -
 ---------------------------------------------------------------
 */
 
@@ -34,19 +35,19 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	animation-name: fadein;
     animation-duration: 1s;
-	
 }
 
 .mainBlock {
 	margin: 0 auto;
 	background-color: white;
-	width: 80%;
+	width: 80vw;
 	padding-bottom: 25px;
 	padding-top: 25px;
 	margin-bottom: 25px;
 	text-align: center;
 	max-width: 920px;
 	border-radius: 5px;
+	transition: .5s;
 }
 
 .mainBlock h1, .mainBlock h2 {
@@ -172,4 +173,38 @@ course p {
 
 .courseNumber {
 	color: #0CC4E8;
+}
+
+/*--- 7. Sidebar ---*/
+.sidebar {
+	background-color: white;
+	height: 100%;
+	width: 150px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	transition: .5s;
+	padding-top: 5%;
+}
+
+.sidebar a {
+	text-decoration: none;
+	padding-left: 5%;
+	padding-top: 5%;
+	font-size: 2em;
+	color: #0CC4E8;
+	transition: 0.2s;
+}
+
+.sidebar a:hover {
+	color: #00074A;
+}
+
+.sidebar .closeBtn {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 2em;
 }

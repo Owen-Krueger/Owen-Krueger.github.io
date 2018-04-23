@@ -5,6 +5,13 @@
 		<link rel="stylesheet" type="text/css" href="style/main.css"/>
 	</head>
 	<body>
+		<div id="navSidebar" class="sidebar">
+			<a href="javascript:void(0)" class="closeBtn" onclick="closeSidebar()">&times;</a>
+			<a href="#Portfolio">Portfolio</a>
+			<a href="#Courses">Courses</a>
+			<a href="#Skills">Skills</a>
+		</div>
+	
 		<div class="mainBlock">
 			<div class="profileMain">
 				<img class="profileImage" src="image/profile.jpg" alt="Profile Picture"/>
@@ -20,11 +27,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="mainBlock">
+		<div id="Portolio" class="mainBlock">
 			<h1>Portfolio</h1>
 			<div class="mainLink"><a href="files/resume.pdf" target="_blank">Current Resume (PDF)</a></div>
 		</div>
-		<div class="mainBlock courseBlock">
+		<div id="Courses" class="mainBlock courseBlock">
 				<h1>Courses</h1>
 			<course>
 				<h2><span class="courseNumber">CIS 3034</span> - Client-Side Web Development</h2>
@@ -66,6 +73,9 @@
 				<h2><span class="courseNumber">CIS 2087</span> - Programming in Java II</h2>
 				<p>Course Description</p>
 			</course>
+		</div>
+		<div id="Skills" class="mainBlock skillsBlock">
+			<h1>Skills</h1>
 		</div>
 	</body>
 </html>
