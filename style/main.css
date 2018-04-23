@@ -188,6 +188,7 @@ course p {
 	overflow-x: hidden;
 	transition: .5s;
 	padding-top: 5%;
+	border-right: 5px solid #00074A;
 }
 
 .sidebar a {
