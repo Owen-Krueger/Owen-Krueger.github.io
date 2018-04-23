@@ -5,7 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="style/main.css"/>
 	</head>
 	<body>
-		<div class="openBtn" onclick="openSidebar()">&#9776;</div>
+		<div id="openBtn" class="openBtn" onclick="openSidebar()">&#9776;</div>
 		<div id="navSidebar" class="sidebar">
 			<a href="javascript:void(0)" class="closeBtn" onclick="closeSidebar()">&times;</a>
 			<a href="#Portfolio">Portfolio</a>
@@ -81,11 +81,11 @@
 		
 		<script>
 			function openSidebar(){
-				document.getElementById("navSidebar").style.width = "150px";
+				document.getElementById("navSidebar").setAttribute("style", "width: 150px; border-width: 5px");
 			}
 			
 			function closeSidebar(){
-				document.getElementById("navSidebar").style.width = "0";
+				document.getElementById("navSidebar").setAttribute("style", "width: 0px; border-width: 0px");
 			}
 		</script>
 	</body>
