@@ -206,6 +206,10 @@ block p {
 	border-right: 0px solid #00074A;
 }
 
+.sidebar hr {
+	border-top: 1px solid #00074A;
+}
+
 .sidebar a {
 	text-decoration: none;
 	display: block;
