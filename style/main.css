@@ -138,7 +138,7 @@ body {
 }
 
 /*--- 6. Blocks ---*/
-.block {
+.block, .courseBlock, .employmentBlock {
 	overflow: auto;
 	height: 500px;
 }
