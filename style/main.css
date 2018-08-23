@@ -32,10 +32,13 @@
 
 /*--- 2. Main ---*/
 body {
-	background-color: #5D5D5D;
+	/*background-color: #5D5D5D;*/
 	font-family: Helvetica, Arial, sans-serif;
-	animation-name: fadein;
-    animation-duration: 1s;
+	animation: fadein 1s;
+	background-color: #0CC4E8;
+	background: linear-gradient(45deg, #0013FF, #000EB2, #A0A0A0, #D3D3D3);
+	background-size: 400% 400%;
+	animation: Gradient 15s ease infinite;
 }
 
 .mainLink {
@@ -73,6 +76,18 @@ body {
 
 ::-webkit-scrollbar-thumb {
 	background: #0CC4E8;
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
 
 /*--- 3. Profile ---*/
