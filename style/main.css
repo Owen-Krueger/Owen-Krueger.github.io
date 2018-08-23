@@ -6,7 +6,8 @@
 - 4. Social                                                   -
 - 5. Animations                                               -
 - 6. Blocks                                                   -
-- 7. Sidebar                                                  -
+- 7. Skills                                                   -
+- 8. Sidebar                                                  -
 ---------------------------------------------------------------
 */
 
@@ -149,7 +150,7 @@ body {
 }
 
 /*--- 6. Blocks ---*/
-.block, .courseBlock, .employmentBlock {
+.block, .courseBlock, .employmentBlock, .skillsBlock {
 	overflow: auto;
 	height: 500px;
 }
@@ -191,7 +192,10 @@ block p {
 	color: #0CC4E8;
 }
 
-/*--- 7. Sidebar ---*/
+/*--- 7. Skills ---*/
+
+
+/*--- 8. Sidebar ---*/
 .sidebar {
 	background-color: white;
 	height: 100%;
