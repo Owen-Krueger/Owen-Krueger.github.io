@@ -81,14 +81,19 @@ body {
 
 ::-webkit-scrollbar {
 	width: 10px;
+	
 }
 
 ::-webkit-scrollbar-track {
-	background: #202020
+	background: #202020;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
 	background: #0CC4E8;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 /*--- 3. Profile ---*/
