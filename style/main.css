@@ -36,7 +36,7 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	animation: fadein 1s;
 	background-color: #0CC4E8;
-	background: linear-gradient(45deg, #0013FF, #000EB2, #A0A0A0, #D3D3D3);
+	background: linear-gradient(45deg, #3645ff, #636fff, #A0A0A0, #D3D3D3);
 	background-size: 400% 400%;
 	animation: Gradient 15s ease infinite;
 }
