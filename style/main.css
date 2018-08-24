@@ -149,9 +149,10 @@ body {
 }
 
 /*--- 6. Blocks ---*/
-.block, .courseBlock, .employmentBlock, .skillsBlock {
+.block, .courseBlock, .employmentBlock, .skillsBlock, .projectsBlock {
 	overflow: auto;
 	height: 500px;
+	/*height: 55vh;*/
 }
 
 .block .title {
