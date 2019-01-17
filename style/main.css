@@ -204,11 +204,12 @@ block p {
 	max-width: 920px;
 	border-radius: 5px;
 	transition: .5s;
+	scrollbar-width: thin;
+	scrollbar-color: #0CC4E8 #202020;
 }
 
 .mainBlock::-webkit-scrollbar {
 	width: 10px;
-	
 }
 
 .mainBlock::-webkit-scrollbar-track {
