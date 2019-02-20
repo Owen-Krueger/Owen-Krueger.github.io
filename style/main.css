@@ -5,3 +5,12 @@
 	width: 480;
 	height: 320;
 }
+
+@font-face {
+	font-family: "Terminal";
+	src: url("font/TerminusTTF-4.47.0.ttf");
+}
+
+p {
+	font-family: 'Terminal';
+}
