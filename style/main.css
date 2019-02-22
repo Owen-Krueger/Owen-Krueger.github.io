@@ -1,16 +1,40 @@
-#mainCanvas {
-	background: #eee;
-	display: block;
-	margin: 0 auto;
-	width: 480;
-	height: 320;
-}
+/**
+* Main CSS
+**/
 
 @font-face {
 	font-family: "Terminal";
 	src: url("font/TerminusTTF-4.47.0.ttf");
 }
 
-p {
+body {
 	font-family: 'Terminal';
+}
+
+/**
+* Main Nav Bar
+**/
+
+#mainNav {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	height: 10vh;
+	background-color: #000000;
+	color: red;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	grid-template-rows: repeat(2, 100px);
+}
+
+/**
+* Main Canvas
+**/
+#mainCanvas {
+	background: #eee;
+	display: block;
+	margin: 0 auto;
+	width: 480;
+	height: 320;
 }
