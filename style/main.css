@@ -2,6 +2,15 @@
 * Main CSS
 **/
 
+/**
+* Colors
+* Dark Blue: #024959
+* Lighter Blue: #037E8C
+* White: #FFFFFA
+* Orange: #F24C27
+* Brown: 5F5448
+**/
+
 @font-face {
 	font-family: "Terminal";
 	src: url("font/TerminusTTF-4.47.0.ttf");
@@ -9,6 +18,7 @@
 
 body {
 	font-family: 'Terminal';
+	background-color: #024959;
 }
 
 /**
@@ -17,13 +27,18 @@ body {
 
 #mainNav {
 	width: 100%;
-	background-color: grey;
-	min-height: 100px;
-	height: 10%;
+	background-color: #037E8C;
+	height: 100px;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 25px;
 }
 
 #mainNav a {
 	display: inline-block;
+	color: #FFFFFA;
+	text-decoration: none;
+	font-size: 1.5em;
 }
 
 #mainNava {
@@ -44,10 +59,26 @@ body {
 **/
 
 #mainContent {
-	background-color: red;
-	max-width: 1700px;
-	width: 100%;
+	background-color: #FFFFFA;
+	width: 1200px;
 	margin: 0 auto;
+	margin-top: 25px;
+}
+
+#mainImage {
+	display: block;
+	margin: 0 auto;
+	padding-top: 25px;
+	width: 300px;
+	border-radius: 30%;
+}
+
+#mainTitle {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	color: #F24C27;
+	font-size: 2.5em;
 }
 
 /**
