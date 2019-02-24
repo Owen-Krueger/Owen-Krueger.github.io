@@ -26,19 +26,25 @@ body {
 **/
 
 #mainNav {
+	display: inline-grid;
+	grid-gap: 10px;
+	grid-template-columns: auto auto auto auto;
 	width: 100%;
 	background-color: #037E8C;
 	height: 100px;
 	width: 1200px;
 	margin: 0 auto;
 	margin-top: 25px;
+	border-radius: 0px 0px 25px 25px;
 }
 
 #mainNav a {
+	text-align: center;
 	display: inline-block;
 	color: #FFFFFA;
 	text-decoration: none;
-	font-size: 1.5em;
+	font-size: 2em;
+	padding: 30px 0px 0px 0px;
 }
 
 #mainNava {
@@ -63,6 +69,7 @@ body {
 	width: 1200px;
 	margin: 0 auto;
 	margin-top: 25px;
+	border-radius: 25px;
 }
 
 #mainImage {
@@ -78,7 +85,7 @@ body {
 	text-align: center;
 	margin: 0 auto;
 	color: #F24C27;
-	font-size: 2.5em;
+	font-size: 3em;
 }
 
 /**
