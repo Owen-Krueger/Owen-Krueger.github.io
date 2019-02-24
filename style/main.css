@@ -17,6 +17,17 @@ body {
 
 #mainNav {
 	width: 100%;
+	background-color: grey;
+	min-height: 100px;
+	height: 10%;
+}
+
+#mainNav a {
+	display: inline-block;
+}
+
+#mainNava {
+	width: 100%;
 	padding: 0;
 	margin: 0;
 	height: 10vh;
@@ -26,6 +37,17 @@ body {
 	grid-gap: 5px;
 	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 	grid-template-rows: repeat(2, 100px);
+}
+
+/**
+* Main Content
+**/
+
+#mainContent {
+	background-color: red;
+	max-width: 1700px;
+	width: 100%;
+	margin: 0 auto;
 }
 
 /**
