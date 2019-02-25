@@ -88,13 +88,11 @@ body {
 #mainImage {
 	display: block;
 	margin: 0 auto;
-	padding-top: 25px;
 	width: 300px;
-	border-radius: 30%;
+	border-radius: 25px;
 }
 
 #mainTitle {
-	width: 100%;
 	text-align: center;
 	margin: 0 auto;
 	color: #F24C27;
