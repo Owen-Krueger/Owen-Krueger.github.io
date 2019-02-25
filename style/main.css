@@ -79,10 +79,22 @@ body {
 	padding-bottom: 5px;
 }
 
+.content h2 {
+	color: #F24C27;
+	margin: 0 auto;
+	text-align: center;
+}
+
 .content p {
 	padding-left: 25px;
 	padding-right: 25px;
 	padding-bottom: 20px;
+}
+
+.content img {
+	display: block;
+	margin: 0 auto;
+	height: 300px;
 }
 
 #mainImage {
