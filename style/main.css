@@ -115,3 +115,12 @@ body {
 	width: 480;
 	height: 320;
 }
+
+/**
+* Random
+**/
+
+iframe {
+	display: block;
+	margin: 0 auto;
+}
