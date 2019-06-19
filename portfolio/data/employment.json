@@ -1,0 +1,71 @@
+{
+	"employment": {
+		"postCollege": [
+			"digiKey": {
+				"name":"Software Engineer",
+				"employer":"Digi-Key Electronics"
+				"location":"Thief River Falls, MN",
+				"department":"Finance",
+				"startDate":"June 2019",
+				"endDate":"Present",
+				"description":"Software engineer within the finance department at Digi-Key.",
+				"tasks":"",
+				"positions": [
+				
+				]
+			}
+		],
+		"college": [
+			"tutor": {
+				"name":"CIS Tutor",
+				"employer":"College of Saint Scholastica",
+				"location":"Duluth, MN",
+				"department":"Center for Academic Success",
+				"startDate":"September 2016",
+				"endDate":"May 2019",
+				"description":"Coach and mentor students in Computer Information Systems field, motivate students, assist in evaluating studying techniques and learning styles, build relationships with students and colleagues with diverse backgrounds, and model professional academic behavior.",
+				"tasks":"",
+				"positions": [
+					"lead": {
+						"name":"Lead Tutor",
+						"startDate":"May 2017",
+						"endDate":"May 2019",
+						"description":"",
+						"tasks":""
+					}
+				]
+			},
+			"techServices": {
+				"name":"Tech Service Assistant",
+				"employer":"College of Saint Scholastica",
+				"location":"Duluth, MN",
+				"department":"Tech Services",
+				"startDate":"April 2017",
+				"endDate":"May 2019",
+				"description":"Assist the IT Department with staff requests, wipe old computers and image new ones to swap out, troubleshoot problems with current hardware and software, and communicate with IT employees and St. Scholastica staff.",
+				"tasks":""
+			},
+			"carpenter": {
+				"name":"Carpenter",
+				"employer":"College of Saint Scholastica",
+				"location":"Duluth, MN",
+				"department":"Drama Department",
+				"startDate":"January 2016",
+				"endDate":"May 2016",
+				"description":"Constructed, painted and furnished sets, collaborated with team-members to work efficiently and sufficiently, solved various problems with sets and lights, and assisted in educating new employees on expectations and procedures.",
+				"tasks":""
+			}
+		],
+		"preCollege": [
+			"farmer": {
+				"name":"Farmer",
+				"employer":"Kennedy Farms",
+				"location":"Brook Park, MN",
+				"startDate":"June 2011",
+				"endDate":"August 2015",
+				"description":"Cut, raked and bailed hay, diagnosed problems with machinery and repaired accordingly in a correct and efficient way, managed time and property, and communicated information with employer and others.",
+				"tasks":""
+			}
+		]
+	}
+}
