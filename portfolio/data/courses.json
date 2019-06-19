@@ -1,11 +1,11 @@
 {
-	"summary": {
-		"GPA":3.97,
-		"majorGPA":3.97,
-		"creditsEarned":150
-	},
-	"courses": [
-		"bachelors": [
+	"courses": {
+		"bachelors": {
+			"summary": {
+				"GPA":3.97,
+				"majorGPA":3.97,
+				"creditsEarned":150
+			},
 			"major": [
 				"CIS 4555": {
 					"name":"Systems Development Internship",
@@ -218,12 +218,12 @@
 					"format":"In Person"
 				}
 			]
-		],
-		"masters": [
+		},
+		"masters": {
 		
-		],
-		"others": [
+		},
+		"others": {
 		
-		]
-	]
+		}
+	}
 }
