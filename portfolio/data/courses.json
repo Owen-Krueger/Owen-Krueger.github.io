@@ -1,0 +1,37 @@
+{
+	"courses": [
+		"bachelors": [
+			"major": [
+				"CIS 4555": {
+					"name":"Systems Development Internship",
+					"description":"A capstone experience integrating knowledge and skills gained through other programming and systems development blocks. Involves significant participation in software development projects in a real or simulated business setting.",
+					"credits":4
+				},
+				"CIS 4115": {
+					"name":"Artificial Intelligence with Robotics",
+					"description":"Gives students an in depth understanding of modern artificial intelligence methodologies, techniques, tools and results. Students learn the theoretical and conceptual components of this discipline. Topics covered: history of AI, search techniques, knowledge representation, reasoning, natural languages, machine learning, robotics, neural networks and expert systems. Students implement the above topics by means of computer programs written in laboratory. Interactions between artificial intelligence and other disciplines will be explored.",
+					"credits":4
+				},
+				"CIS 4109": {
+					"name":"Capstone Project",
+					"description":"This class acts as an in-depth systems development lifecycle practicum. Students work in teams to analyze, design, implement and document a complete information system. Most projects come from systems design requests from the local community. -- I worked with Animal Allies, a local humane society to recommend, develop, and convert their current website over to a new host. We chose to move forward with Wix. This course allowed for client/team communications, meeting organizating, goal development, and time management.",
+					"credits":4
+				},
+				"CIS 4108": {
+					"name":"Project Management",
+					"description":"An introduction to project management and the supporting techniques and tools. The block exposes students the project management process, the deliverables produced while managing a project, and the collaborative nature of the project environment.",
+					"credits":4
+				}
+			],
+			"others": [
+			
+			]
+		],
+		"masters": [
+		
+		],
+		"others": [
+		
+		]
+	]
+}
