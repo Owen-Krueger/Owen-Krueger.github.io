@@ -1,4 +1,9 @@
 {
+	"summary": {
+		"GPA":3.97
+		"majorGPA":3.97
+		"creditsEarned":150
+	},
 	"courses": [
 		"bachelors": [
 			"major": [
@@ -45,6 +50,71 @@
 				"CIS 3334": {
 					"name":"Mobile Device Programming",
 					"description":"Develop applications for a variety of resource constrained devices such as cellular phones, pagers and personal digital assistants (PDAs). Students will explore the creation of graphical user interfaces, data storage, network access and game development. Activities include creating applications for mobile devices using both high-level and low-level industry standard interfaces and developing a distributed application over a wireless network.",
+					"credits":4
+				},
+				"CIS 3287": {
+					"name":"Software Quality Assurance",
+					"description":"As our society’s dependence on software grows, so does the importance of software quality. Software failures can have catastrophic effects on companies and people. In this course, students learn the principles of Software Quality Assurance, how to write test plans, and how software quality fits into a project’s development methodology.",
+					"credits":2
+				},
+				"CIS 3285": {
+					"name":"Software Design",
+					"description":"Introduces software engineering and the processes for building software systems. The course examines the software lifecycle and the methods used to manage software projects. Students learn to create software designs from user requirements using UML, convert these design into software, and test and maintain this software. Since software design entails significant interactions between parties, people management and team management methods are explored including analysis of the ethical implications of the software design process.",
+					"credits":4
+				},
+				"CIS 3230": {
+					"name":"Game Design and 3D Modeling",
+					"description":"Introduces the diverse tasks required for 3-D game development. An overview of the game design industry and game development processes lead to development projects that use leading development tools. Sophisticated 3-D models are created using modeling software and incorporated into the development projects. Assessment is based on student's understanding of the methodologies, use of the development tools, and aesthetics of the designs.",
+					"credits":4
+				},
+				"CIS 3205": {
+					"name":"Information Systems",
+					"description":"Explores the ways computer-based information technologies and systems are used to address specific organizational needs. Students will become familiar with the terms, concepts, and issues in information technology management; become involved in the process of developing and modifying information systems which support crucial problem solving and decision-making in organizations; and conduct data analysis using common techniques.",
+					"credits":4
+				},
+				"CIS 3108": {
+					"name":"Systems Analysis and Design",
+					"description":"Focuses on the five phases of the systems development life cycle. Topics include: preliminary investigation, physical and logical documentation, detailed investigation of requirements and alternative specifications, analysis and design techniques, implementation considerations, development of logical and physical data flow diagrams, data modeling, prototyping, CASE tools and the use of Gantt and PERT charts. A sample project is introduced and is integrated using the SDLC methodology.",
+					"credits":4
+				},
+				"CIS 3107": {
+					"name":"Database Modeling",
+					"description":"Provides an understanding of fundamental concepts in the management of data, hands-on experience with a small-scale database management system, and an awareness of the application of business data base management systems. Lab exercises involve use of a relational DBMS to load, update and retrieve information from a database.",
+					"credits":4
+				},
+				"CIS 3089": {
+					"name":"Data Structures and Algorithm Analysis",
+					"description":"Studies fundamental concepts of algorithm analysis and the specification and implementation of data structures and data types are introduced. Topics include linked lists, stacks, queues, binary search trees, sorting, searching and graphs.",
+					"credits":4
+				},
+				"CIS 3034": {
+					"name":"Client-Side Web Development",
+					"description":"Provides an introduction to creating web applications with a rich client-side interface. The block focuses on the use of standards-compliant programming techniques and innovative approaches to user experience design. Gives students practical experience in working with current and emerging web technologies for the client-side of applications.",
+					"credits":2
+				},
+				"CIS 2087": {
+					"name":"Programming in Java II",
+					"description":"Continuation of object-oriented programming. The block deals with problems involving arrays and teaches techniques and methods to handle files and structures. This block expands on the object concepts introduced in CIS 2085.",
+					"credits":4
+				},
+				"CIS 2085": {
+					"name":"Programming in Java I",
+					"description":"Introduces object-oriented programming using the Java language, a cross-platform Internet programming language. The block examines the nature of programming and its use in solving problems. Students learn to read and write programs using standard programming structures, including input/output, control statements, loops and methods.",
+					"credits":4
+				},
+				"CIS 2011": {
+					"name":"Hardware/Software Systems",
+					"description":"A survey of technical topics related to computer systems with emphasis on the relationships between computer hardware, system software and application software. It explores different operating systems (with an emphasis on Microsoft Windows), hardware configurations, memory management techniques, and networking.",
+					"credits":4
+				},
+				"CIS 1205": {
+					"name":"Technology Ethics",
+					"description":"An examination of ways technology challenges traditional ethical, legal and social concepts. This includes issues generated by the use of computers and computer networks, including the Internet and the World Wide Web. Topics for consideration include: privacy, security, computer crime, software piracy, copyrights, intellectual property, free speech, access to information/ censorship, Ecommerce, computers and gender and civil liberties in cyberspace.",
+					"credits":4
+				},
+				"CIS 1007": {
+					"name":"Introduction to Databases",
+					"description":"The course emphasizes the use of the computer as a tool to manipulate data and produce information. It includes a practical application software emphasis that highlights the use of databases. Students will learn how to create tables, forms, queries, reports and macros using a small-scale database management system.",
 					"credits":4
 				}
 			],
