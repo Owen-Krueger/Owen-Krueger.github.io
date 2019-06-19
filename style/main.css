@@ -136,3 +136,16 @@ iframe {
 	display: block;
 	margin: 0 auto;
 }
+
+footer {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: center;
+	color: #202020;
+	font-size: 1.25em;
+}
+
+footer a {
+	color: #0CC4E8;
+	text-decoration: none;
+}
