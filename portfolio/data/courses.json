@@ -21,6 +21,31 @@
 					"name":"Project Management",
 					"description":"An introduction to project management and the supporting techniques and tools. The block exposes students the project management process, the deliverables produced while managing a project, and the collaborative nature of the project environment.",
 					"credits":4
+				},
+				"CIS 4042": {
+					"name":"Computer Security",
+					"description":"Explores the ways computer-based information technologies and systems are used to address specific organizational needs. Students will become familiar with the terms, concepts, and issues in information technology management; become involved in the process of developing and modifying information systems which support crucial problem solving and decision-making in organizations; and conduct data analysis using common techniques.",
+					"credits":2
+				},
+				"CIS 4041": {
+					"name":"Web Design",
+					"description":"Explore the design principles that characterize successful Web sites and use modern tools for creating Web sites. Design issues will include the differences between print and electronic media, working within the limits of the technology, and how the user's contexts and goals affect Web design. Web sites will be critiqued from both an aesthetic and functional standpoint and students will be required to design and build fully functional Web sites.",
+					"credits":4
+				},
+				"CIS 4034": {
+					"name":"Server-Side Web Development",
+					"description":"Provides an introduction to web site administration and the use of a web development IDE for the creation of database driven web applications. The block focuses on server-side programming and database access for web applications; giving students practical experience with current development environments.",
+					"credits":4
+				},
+				"CIS 3777": {
+					"name":"Software Development with Amazon Alexa",
+					"description":"This course was an independent study conducted with a professor. This course explored AWS and developing skills for the Amazon Alexa. These skills were developed in both the Java and Python languages.",
+					"credits":4
+				},
+				"CIS 3334": {
+					"name":"Mobile Device Programming",
+					"description":"Develop applications for a variety of resource constrained devices such as cellular phones, pagers and personal digital assistants (PDAs). Students will explore the creation of graphical user interfaces, data storage, network access and game development. Activities include creating applications for mobile devices using both high-level and low-level industry standard interfaces and developing a distributed application over a wireless network.",
+					"credits":4
 				}
 			],
 			"others": [
