@@ -1,8 +1,8 @@
 body {
     /* Variables */
     --color-background: #242326;
-    --color-text: #4e4e4e;
-    --color-text-heading: #ffffff;
+    --color-text: #ffffff;
+    --color-text-accent: #54ADC1;
     --font-weight-normal: 400;
 	--font-weight-semibold: 500;
 	--font-weight-bold: 700;
@@ -38,7 +38,7 @@ main {
 
 h1 {
 	font-weight: var(--font-weight-bold);
-    color: var(--color-text-heading);
+    color: var(--color-text-accent);
     font-size: 250%;
 }
 
@@ -52,4 +52,14 @@ section {
     max-width: 100%;
     width: 300px;
     border-radius: 25%;
+    box-shadow: 2px 2px 5px 5px rgba(84, 173, 193, 0.5);
+}
+
+a {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-text-accent);
 }
